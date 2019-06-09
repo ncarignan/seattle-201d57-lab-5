@@ -9,13 +9,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  console.log('a : ' + a);
-  console.log('b : ' + b);
+  // console.log('a : ' + a);
+  // console.log('b : ' + b);
 
-  var total = a + b;
-  var message = 'The sum of ' + a + ' and ' + b + ' is ' + total + '.';
-
-  return [total, message];
+  var total1 = a + b;
+  var message1 = 'The sum of ' + a + ' and ' + b + ' is ' + total1 +'.';
+  return [total1, message1];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -35,10 +34,17 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 
+  var total2 = a * b;
+  console.log(a);
+  console.log(b);
+  console.log(total2);
+  var message2 = 'The product of ' + a + ' and ' + b + ' is ' + total2 +'.';
+  return [total2, message2];
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+// eslint-disable-next-line no-undef
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
